@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/*Wanda FA CSS page*/
+
+body
+
+{
+/*background-color: #A3C9A1;*/
+background-image: url('images/texture-background-green-leaf.jpg');
+font-family: lancelot,"Times New Roman", sans-serif;
+font-size: 20px;
+}
+
+#header {
+
+height:  4em;
+width:750px;
+/*background-color: #82A680;*/
+background-image: url('images/FANCY-TEA-SERVICE-2.jpg');
+text-align: center;
+margin: auto;
+padding: 10px 0px 0px;
+}
+ h1
+ {
+   text-align: center;
+   margin-top: 0;
+   padding-top: 15px;
+   color:white;
+   font-size: 200%;
+   font-family: Lora,cursive,fantasy;
+ }
+ nav {
+	background-color: forestgreen;
+	margin: auto;
+	width: auto;
+	position: relative;
+	text-decoration: none;
+	font-family: alegreya;
+	font-style: normal;
+	font-weight: 400;
+}
+
+nav ul{
+	background-color: #D6E8D5;
+	padding: 5px 0px 5px 0px;
+	color: #5FA406;
+}
+
+
+nav ul li{
+	display: inline;
+	padding: 5px 5px 5px 5px;
+	color: #315103;
+}
+
+nav ul li a:link, ul li a:visited
+{
+	color: #2F8507;
+	border-bottom: none;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: x-large;
+}
+
+nav ul li.selected {
+	background-color: #CC7333;
+	text-decoration: none;
+	color: #D9410D;
+}
+#main
+{
+  width: 750px;
+  height: 950px;
+  margin: 0px auto;
+  padding:0px;
+}
+.main
+{
+  width:750px;
+  height: 950px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+img{
+
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+h2{
+  text-align: center;
+  font-family: fantasy;
+}
+p
+{ font-size: 20px;
+  text-align: center;
+  font-family: Palantino, "Palantino Linotype", Lucida,serif;
+   }
+h3{
+  text-align: center;
+  font-family: fantasy;
+}
+   ul{
+     text-align: inherit;
+     font-family: palantino;
+   }
+h4
+{font-size: 14px;
+  font-family: monaco;
+  color:#1C8C15;
+text-align: left;
+margin-left: 20px;
+}
+
+ol{
+  font-size: 14px;
+}
+ a:link{
+   color:#0D380A;
+ }
+ a:visited{
+   color:#BA5C0F;
+ }
+ a:hover{
+   color:green;
+ }
+
+ a:active{
+   color:#379432;
+ }
+
+#footer{
+  width:750px;
+  /*background-color: #82A680;*/
+background-image: url('images/FANCY-TEA-SERVICE-2.jpg');
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
